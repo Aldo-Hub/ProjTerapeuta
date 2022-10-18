@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat&family=Noto+Serif+TC:wght@300&family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .cabecalho{
+    top: 0;
+    width: 100%;
+    background-color: bisque;
+    /*height: 140px;*/
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+    position: fixed;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+img {
+    border-radius: 10px;
+    width: 100px;
+}
+.logo{
+    padding-right: 25px;
+}
+
+.insta{
+    padding-left: 10px;
+    width: 30px;
+}
+
+.insta:hover {
+    transform: scale(1.2);
+}
+
+.zap{
+    padding-left: 10px;
+    width: 27px;
+}
+
+.zap:hover {
+    transform: scale(1.2); 
+}
+
+.cabecalho .apresentacao .nome{
+    font-family: 'Alex brush';
+    font-size: 50px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+.cabecalho .especializacoes{
+    font-size: 20px;
+    font-family: 'Playfair+Display';
+    display: inline-flex;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+}
+
+hr{
+    margin-top: 0px;
+}
+
+.raiki{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.raiki-descricao{
+    margin-top: 145px;
+    background-color: #783c00;
+    color: white;
+    font-family: 'Noto+Serif';
+    padding: 30px;
+    padding-bottom: 10px;
+    /*background-color:blueviolet;*/
+}
+
+.raiki-beneficio{
+    background-color: #bc5e00;
+    color: white;
+    font-family: 'Noto+Serif';
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 30px;
+    /*background-color: blue;*/
+}
+
+.raiki-imagem{
+    /*background-color:brown;*/
+    margin-right: -8px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-image: url("../imagens/imagemraiki.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.argiloterapia{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.argilo-descricao{
+    margin-right: -8px;
+    background-color: #783c00;
+    color: white;
+    font-family: 'Noto+Serif';
+    padding: 30px;
+    padding-bottom: 10px;
+    /*background-color:blueviolet;*/
+}
+
+.argilo-beneficio{
+    margin-right: -8px;
+    background-color: #bc5e00;
+    color: white;
+    font-family: 'Noto+Serif';
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 30px;
+    /*background-color: blue;*/
+}
+
+.argilo-beneficio-list{
+    display: inline-flex;
+}
+
+.argilo-imagem{
+    /*background-color:brown;*/
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-image: url("../imagens/argiloterapia.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.reflexologia{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: -15px;
+}
+
+.reflexo-descricao{
+    background-color: #783c00;
+    color: white;
+    font-family: 'Noto+Serif';
+    padding: 30px;
+    padding-bottom: 10px;
+    /*background-color:blueviolet;*/
+}
+
+.reflexo-beneficio{
+    margin-bottom: 15px;
+    background-color: #bc5e00;
+    color: white;
+    font-family: 'Noto+Serif';
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 30px;
+    /*background-color: blue;*/
+}
+
+.reflexo-beneficio-list{
+    display: inline-flex;
+}
+
+.reflexo-imagem{
+    /*background-color:brown;*/
+    margin-right: -8px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-image: url("../imagens/imagemreflexologiapodal.jpg");
+    background-size: 50%;
+    background-position: center;
+}
+
+.ventosaterapia{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ventosa-descricao{
+    margin-right: -8px;
+    background-color: #783c00;
+    color: white;
+    font-family: 'Noto+Serif';
+    padding: 30px;
+    padding-bottom: 10px;
+    /*background-color:blueviolet;*/
+}
+
+.ventosa-beneficio{
+    margin-right: -8px;
+    background-color: #bc5e00;
+    color: white;
+    font-family: 'Noto+Serif';
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 30px;
+    /*background-color: blue;*/
+}
+
+.ventosa-beneficio-list{
+    display: inline-flex;
+}
+
+.ventosa-imagem{
+    /*background-color:brown;*/
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-image: url("../imagens/imagemventosaterapia.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.massagem{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: -15px;
+}
+
+.massagem-descricao{
+    background-color: #783c00;
+    color: white;
+    font-family: 'Noto+Serif';
+    padding: 30px;
+    padding-bottom: 10px;
+    /*background-color:blueviolet;*/
+}
+
+.massagem-beneficio{
+    margin-bottom: 15px;
+    background-color: #bc5e00;
+    color: white;
+    font-family: 'Noto+Serif';
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 30px;
+    /*background-color: blue;*/
+}
+
+.massagem-beneficio-list{
+    display: inline-flex;
+}
+
+.massagem-imagem{
+    /*background-color:brown;*/
+    margin-right: -8px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-image: url("../imagens/imagemmassagemrelaxante.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.terapia{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.terapia-descricao{
+    margin-right: -8px;
+    background-color: #783c00;
+    color: white;
+    font-family: 'Noto+Serif';
+    padding: 30px;
+    padding-bottom: 30px;
+    /*background-color:blueviolet;*/
+}
+
+.terapia-beneficio{
+    margin-right: -8px;
+    background-color: #bc5e00;
+    color: white;
+    font-family: 'Noto+Serif';
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    /*background-color: blue;*/
+}
+
+.terapia-beneficio-list{
+    display: inline-flex;
+}
+
+.terapia-imagem{
+    /*background-color:brown;*/
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-image: url("../imagens/imagemvaporizacao.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+footer{
+    font-weight: bold;
+    position:fixed;
+    bottom: 0;
+    background-color: bisque;
+    color: black;
+    width: 100%;
+    height: 30px;    
+    text-align: center;
+    line-height: 2px;
+    
+}
