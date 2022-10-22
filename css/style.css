@@ -2,25 +2,24 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 header .cabecalho{
-    top: 0;
     width: 100%;
     background-color: bisque;
-    /*height: 140px;*/
     display: flex;
     justify-content: space-between;
     padding: 10px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    padding-right: 10px;
     align-items: center;
     position: fixed;
 }
 
 h2{
     font-size: 30px;
-    line-height: 30px;
     margin: 0;
     margin-bottom: 10px;
 }
@@ -30,12 +29,14 @@ img {
     width: 100px;
 }
 .logo{
-    padding-right: 25px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    padding-right: 5px;
 }
 
 .insta{
     padding-left: 10px;
-    width: 30px;
+    width: 25px;
 }
 
 .insta:hover {
@@ -44,7 +45,7 @@ img {
 
 .zap{
     padding-left: 10px;
-    width: 27px;
+    width: 25px;
 }
 
 .zap:hover {
@@ -54,7 +55,7 @@ img {
 .cabecalho .apresentacao .nome{
     font-family: 'Alex brush';
     font-size: 50px;
-    margin-top: -10px;
+    margin-top: 5px;
     margin-bottom: 0px;
 }
 
@@ -77,28 +78,29 @@ hr{
 }
 
 .raiki-descricao{
+    padding-top: 50px;
+    padding-left: 5px;
     margin-top: 145px;
+    line-height: 25px;
     background-color: #783c00;
     color: white;
     font-family: 'Noto+Serif';
-    padding: 30px;
     padding-bottom: 10px;
-    /*background-color:blueviolet;*/
 }
 
 .raiki-beneficio{
+    padding-top: 10px;
+    padding-left: 5px;
+    line-height: 25px;
     background-color: #bc5e00;
     color: white;
     font-family: 'Noto+Serif';
-    padding-top: 10px;
     padding-bottom: 0;
-    padding-left: 30px;
-    /*background-color: blue;*/
 }
 
 .raiki-imagem{
-    /*background-color:brown;*/
-    margin-right: -8px;
+    margin-top: 170px;
+    margin-bottom: 0;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
     background-image: url("../imagens/imagemraiki.jpg");
@@ -112,24 +114,23 @@ hr{
 }
 
 .argilo-descricao{
-    margin-right: -8px;
+    padding-top: 20px;
+    padding-left: 5px;
+    line-height: 25px;
     background-color: #783c00;
     color: white;
     font-family: 'Noto+Serif';
-    padding: 30px;
     padding-bottom: 10px;
-    /*background-color:blueviolet;*/
 }
 
 .argilo-beneficio{
-    margin-right: -8px;
+    line-height: 25px;
     background-color: #bc5e00;
     color: white;
     font-family: 'Noto+Serif';
     padding-top: 10px;
     padding-bottom: 0;
-    padding-left: 30px;
-    /*background-color: blue;*/
+    padding-left: 10px;
 }
 
 .argilo-beneficio-list{
@@ -137,7 +138,6 @@ hr{
 }
 
 .argilo-imagem{
-    /*background-color:brown;*/
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     background-image: url("../imagens/argiloterapia.jpg");
@@ -152,23 +152,23 @@ hr{
 }
 
 .reflexo-descricao{
+    padding-top: 20px;
+    padding-left: 5px;
+    line-height: 25px;
     background-color: #783c00;
     color: white;
     font-family: 'Noto+Serif';
-    padding: 30px;
     padding-bottom: 10px;
-    /*background-color:blueviolet;*/
 }
 
 .reflexo-beneficio{
-    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 5px;
+    line-height: 25px;
     background-color: #bc5e00;
     color: white;
     font-family: 'Noto+Serif';
-    padding-top: 10px;
-    padding-bottom: 0;
-    padding-left: 30px;
-    /*background-color: blue;*/
+    padding-bottom: 15px;
 }
 
 .reflexo-beneficio-list{
@@ -176,8 +176,6 @@ hr{
 }
 
 .reflexo-imagem{
-    /*background-color:brown;*/
-    margin-right: -8px;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
     background-image: url("../imagens/imagemreflexologiapodal.jpg");
@@ -191,24 +189,23 @@ hr{
 }
 
 .ventosa-descricao{
-    margin-right: -8px;
+    padding-top: 20px;
+    padding-left: 5px;
+    line-height: 25px;
     background-color: #783c00;
     color: white;
     font-family: 'Noto+Serif';
-    padding: 30px;
     padding-bottom: 10px;
-    /*background-color:blueviolet;*/
 }
 
 .ventosa-beneficio{
-    margin-right: -8px;
     background-color: #bc5e00;
     color: white;
     font-family: 'Noto+Serif';
     padding-top: 10px;
     padding-bottom: 0;
-    padding-left: 30px;
-    /*background-color: blue;*/
+    padding-left: 10px;
+    padding-right: 20px;
 }
 
 .ventosa-beneficio-list{
@@ -216,7 +213,6 @@ hr{
 }
 
 .ventosa-imagem{
-    /*background-color:brown;*/
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     background-image: url("../imagens/imagemventosaterapia.jpg");
@@ -231,23 +227,22 @@ hr{
 }
 
 .massagem-descricao{
+    padding-top: 20px;
+    padding-left: 5px;
+    line-height: 25px;
     background-color: #783c00;
     color: white;
     font-family: 'Noto+Serif';
-    padding: 30px;
     padding-bottom: 10px;
-    /*background-color:blueviolet;*/
 }
 
 .massagem-beneficio{
-    margin-bottom: 15px;
     background-color: #bc5e00;
     color: white;
     font-family: 'Noto+Serif';
     padding-top: 10px;
-    padding-bottom: 0;
-    padding-left: 30px;
-    /*background-color: blue;*/
+    padding-bottom: 15px;
+    padding-left: 10px;
 }
 
 .massagem-beneficio-list{
@@ -255,8 +250,6 @@ hr{
 }
 
 .massagem-imagem{
-    /*background-color:brown;*/
-    margin-right: -8px;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
     background-image: url("../imagens/imagemmassagemrelaxante.jpg");
@@ -270,24 +263,23 @@ hr{
 }
 
 .terapia-descricao{
-    margin-right: -8px;
+    padding-top: 20px;
+    padding-left: 5px;
+    line-height: 25px;
     background-color: #783c00;
     color: white;
     font-family: 'Noto+Serif';
-    padding: 30px;
-    padding-bottom: 30px;
-    /*background-color:blueviolet;*/
+    padding-bottom: 10px;
 }
 
 .terapia-beneficio{
-    margin-right: -8px;
     background-color: #bc5e00;
     color: white;
     font-family: 'Noto+Serif';
     padding-top: 10px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    /*background-color: blue;*/
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 20px;
 }
 
 .terapia-beneficio-list{
@@ -295,7 +287,6 @@ hr{
 }
 
 .terapia-imagem{
-    /*background-color:brown;*/
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     background-image: url("../imagens/imagemvaporizacao.jpg");
@@ -315,4 +306,145 @@ footer{
     text-align: center;
     line-height: 2px;
     
+}
+
+@media (min-width: 775px) and (max-width: 923px) {
+    header .cabecalho{
+    }
+
+    .cabecalho .apresentacao .nome{
+        font-size: 40px;
+    }
+
+    .cabecalho .especializacoes{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 634px) and (max-width: 774px) {
+
+    header .cabecalho{
+    }
+
+    .cabecalho .apresentacao .nome{
+        font-size: 30px;
+    }
+
+    .cabecalho .especializacoes{
+        line-height: 20px;
+        font-size: 15px;
+        display: inline-flex;
+        margin-top: -5px;
+        margin-bottom: 0px;
+        margin-left: 40px;
+    }
+
+    .raiki-imagem{
+        margin-top: 157px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 633px) {
+    header .cabecalho{
+    }
+
+    .cabecalho .apresentacao .nome{
+        padding-top: 20px;
+        width:max-content;
+        font-size: 18px;
+    }
+
+    .cabecalho .especializacoes{
+        line-height: 18px;
+        font-size: 13px;
+        display: inline-flex;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    img {
+        border-radius: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+        width: 60px;
+    }
+    .logo{
+        padding-right: 15px;
+        width: 60px;
+    }
+    
+    .insta{
+        padding-left: 0px;
+        width: 28px;
+    }
+    
+    .zap{
+        padding-left: 3px;
+        width: 24px;
+    }
+
+    .raiki , .argiloterapia , .reflexologia, .ventosaterapia, .massagem, .terapia{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    footer{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 399px) {
+    header .cabecalho{
+    }
+
+    .cabecalho .apresentacao .nome{
+        width:max-content;
+        font-size: 18px;
+    }
+
+    .cabecalho .especializacoes{
+        line-height: 20px;
+        padding-right: 30px;
+        padding-right: 20px;
+        font-size: 10px;
+        display: inline-flex;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    img {
+        border-radius: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+        width: 60px;
+    }
+    .logo{
+        display: none;
+    }
+    
+    .insta{
+        padding-left: 0px;
+        width: 28px;
+    }
+    
+    .zap{
+        padding-left: 3px;
+        width: 24px;
+    }
+
+    .raiki , .argiloterapia , .reflexologia, .ventosaterapia, .massagem, .terapia{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .raiki-descricao{
+        margin-top: 115px;
+        padding-top: 15px;
+    }
+
+    footer{
+        font-size: 9px;
+    }
 }
